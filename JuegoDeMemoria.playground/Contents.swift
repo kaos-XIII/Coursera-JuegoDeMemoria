@@ -11,6 +11,37 @@ var rango = 0...100
 
 for r in rango {
     
+    
+    if r >= 30 && r <= 40 {
+        
+        print("\(r) Viva Swift!!!")
+    
+    }
+    
+    if r == 0 {
+        
+        print("\(r) par!!!")
+    
+    }
+    else if r % 5 == 0 {
+        
+        print("\(r) Bingo!!!")
+        
+    }
+    else if r % 2 != 0 {
+        
+        print("\(r) impar!!!")
+        
+    }
+    else if r % 2 == 0 {
+        
+        print("\(r) par!!!")
+        
+    }
+
+/*
+    
+    
     switch r {
         
         case 0:
@@ -47,5 +78,6 @@ for r in rango {
             break;
         
     }
+ */
     
 }
