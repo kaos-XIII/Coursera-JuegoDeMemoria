@@ -28,7 +28,8 @@ for r in rango {
         print("\(r) Bingo!!!")
         
     }
-    else if r % 2 != 0 {
+    
+    if r % 2 != 0 {
         
         print("\(r) impar!!!")
         
